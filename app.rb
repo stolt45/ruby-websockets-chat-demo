@@ -2,6 +2,8 @@ require 'sinatra/base'
 
 module ChatDemo
   class App < Sinatra::Base
+    $stdout.sync = true
+
     get "/" do
       erb :"index.html"
     end
