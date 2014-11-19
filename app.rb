@@ -5,6 +5,8 @@ module ChatDemo
     $stdout.sync = true
 
     get "/" do
+      #uri = URI.parse(ARFV[0])
+      puts uri.scheme
       erb :"index.html"
     end
 
