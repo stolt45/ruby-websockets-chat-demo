@@ -1,4 +1,5 @@
 require 'sinatra/base'
+require 'uri'
 
 module ChatDemo
   class App < Sinatra::Base
